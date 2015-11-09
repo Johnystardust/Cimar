@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACT,OAAO,EAAE,YAAY;;AAEvB,UAAU;EACR,MAAM,EAAE,YAAY",
+"sources": ["parts/_miscellaneous.sass"],
+"names": [],
+"file": "style.css"
+}
