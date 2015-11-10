@@ -7,6 +7,15 @@
  */
 
 ?>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Tim
+ * Date: 11/10/2015
+ * Time: 10:19 AM
+ */
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -30,24 +39,22 @@
 </head>
 <body>
 
-    <div class="container-fluid no-padding">
+<div class="container-fluid no-padding">
 
-        <?php include_once('includes/partials/menu.php'); ?>
+    <?php include_once('includes/partials/menu.php'); ?>
 
-        <div id="right">
+    <div id="right">
 
-            <?php include_once('includes/partials/header.php'); ?>
+        <?php include_once('includes/partials/header.php'); ?>
 
-            <?php include_once('includes/partials/content.php'); ?>
+        <?php include_once('includes/partials/content.php'); ?>
 
-            <?php include_once('includes/partials/footer.php'); ?>
+        <?php include_once('footer.php'); ?>
 
-        </div>
+    </div><!-- end right -->
 
-    </div>
-
-
-
+</div><!-- end container -->
 
 </body>
 </html>
+

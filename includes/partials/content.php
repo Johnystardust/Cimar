@@ -16,7 +16,7 @@
             <span class="block-intro">
                 Cimar Electronics staat voor samen uw product op de markt brengen. Als specialist worden we sinds 1990 continu uitgedaagd de productie en assemblage van printplaten (prints/PCB's), besturingskasten en -panelen, schake...
             </span>
-            <a href="#" class="lees-verder"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
+            <a href="#" class="btn-cimar"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
         </div>
     </div>
 
@@ -27,7 +27,7 @@
             <span class="block-intro">
                 Vanwege mijn passie voor het onderzoek bij de Wageningen Universiteit naar plant-insect interacties ben ik na mijn pensioen gestart met EPG Systems. Primair om met het onderzoek in contact te blijven, maar ook om in d...
             </span>
-            <a href="#" class="lees-verder"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
+            <a href="#" class="btn-cimar"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
         </div>
     </div>
 
@@ -38,7 +38,7 @@
             <span class="block-intro">
                 Met gepaste trots presenteren wij u onze nieuwe bedrijfsfilm. In ruim 4 minuten nemen wij u mee op een virtuele tour door ons bedrijf. Naast de gehele film langs alle afdelingen van Cimar Electronics zijn er ook korte...
             </span>
-            <a href="#" class="lees-verder"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
+            <a href="#" class="btn-cimar"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
         </div>
     </div>
 
@@ -49,7 +49,7 @@
             <span class="block-intro">
                 Met gepaste trots presenteren wij u onze nieuwe bedrijfsfilm. In ruim 4 minuten nemen wij u mee op een virtuele tour door ons bedrijf. Naast de gehele film langs alle afdelingen van Cimar Electronics zijn er ook korte...
             </span>
-            <a href="#" class="lees-verder"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
+            <a href="#" class="btn-cimar"><span><i class="icon icon-right-open"></i>Lees verder</span></a>
         </div>
     </div>
 

@@ -7,9 +7,36 @@
 body {
   overflow-x: hidden; }
 
+#right {
+  background: url("../images/bg.jpg");
+  margin-left: 207px;
+  display: block;
+  float: none; }
+
 * {
   margin: 0;
   padding: 0; }
+
+.btn-cimar {
+  width: 114px;
+  height: 30px;
+  margin-top: 10px;
+  background: #4065ab;
+  color: #fff;
+  line-height: 24px;
+  display: table; }
+  .btn-cimar span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 11pt; }
+  .btn-cimar i {
+    margin-left: 5px;
+    font-size: 9pt; }
+
+.btn-cimar:hover {
+  background: #004996;
+  color: #fff;
+  text-decoration: none; }
 
 #menu {
   width: 207px;
@@ -129,13 +156,7 @@ body {
       margin: 4px;
       box-shadow: 1px 2px 2px #999; }
 
-#right {
-  margin-left: 207px;
-  display: block;
-  float: none; }
-
 #content {
-  background: url("../images/bg.jpg");
   padding-bottom: 24px;
   float: left; }
   #content .block {
@@ -157,23 +178,82 @@ body {
       font-size: 9pt;
       border-bottom: 1px solid #4d4d4d;
       padding-bottom: 15px; }
-    #content .block .lees-verder {
-      width: 114px;
-      height: 30px;
-      margin-top: 10px;
-      background: #4065ab;
-      color: #fff;
-      line-height: 24px;
-      display: table; }
-      #content .block .lees-verder span {
-        display: table-cell;
-        vertical-align: middle; }
-      #content .block .lees-verder i {
-        margin-left: 5px;
-        font-size: 9pt; }
-    #content .block .lees-verder:hover {
-      background: #004996;
-      text-decoration: none; }
+
+#page-title {
+  margin-top: 40px;
+  margin-bottom: 30px; }
+  #page-title h3 {
+    color: #004996;
+    font-weight: lighter; }
+  #page-title hr {
+    margin-top: 2px;
+    margin-bottom: 3px;
+    border-color: #e0e0e0; }
+
+#page-header .page-slides {
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  list-style-type: none; }
+  #page-header .page-slides img {
+    width: 100%; }
+#page-header .page-slides-menu {
+  position: absolute;
+  left: 30px;
+  margin-top: -34px; }
+  #page-header .page-slides-menu li {
+    width: 12px;
+    height: 12px;
+    float: left;
+    display: block;
+    background: #fff;
+    margin: 4px;
+    box-shadow: 1px 2px 2px #999; }
+
+#page-links {
+  list-style-type: none;
+  height: 40px;
+  margin-bottom: 0;
+  background-color: #4065ab; }
+  #page-links .link {
+    font-size: 11pt;
+    text-align: center;
+    background-color: #4065ab;
+    color: #fff;
+    height: 100%;
+    display: table; }
+    #page-links .link span {
+      display: table-cell;
+      vertical-align: middle; }
+  #page-links .link:hover {
+    background: #8999cc; }
+
+#page-content {
+  font-size: 9pt;
+  background: #fff;
+  padding: 30px 15px;
+  margin-bottom: 30px; }
+  #page-content h4 {
+    margin-top: 0; }
+  #page-content p {
+    line-height: 20px; }
+
+#sidebar .sidebar-block-head {
+  width: 100%;
+  height: 38px;
+  background-color: #4065ab;
+  color: #fff;
+  text-align: center;
+  display: table; }
+  #sidebar .sidebar-block-head span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12pt;
+    font-weight: bold; }
+#sidebar .sidebar-block-body {
+  padding: 15px;
+  background: #fff;
+  font-size: 9pt; }
 
 #footer {
   color: #fff; }

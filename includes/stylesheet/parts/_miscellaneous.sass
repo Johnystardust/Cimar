@@ -7,6 +7,12 @@
 body
   overflow-x: hidden
 
+#right
+  background: url("../images/bg.jpg")
+  margin-left: 207px
+  display: block
+  float: none
+
 // Reset
 *
   margin: 0
@@ -21,3 +27,25 @@ $blue:              #4065ab
 $light_blue:        #8999cc
 $extra_light_blue:  #bac0e2
 $silver_blue:       #d0d5eb
+
+// Buttons
+
+.btn-cimar
+  width: 114px
+  height: 30px
+  margin-top: 10px
+  background: $blue
+  color: $white
+  line-height: 24px
+  display: table
+  span
+    display: table-cell
+    vertical-align: middle
+    font-size: 11pt
+  i
+    margin-left: 5px
+    font-size: 9pt
+.btn-cimar:hover
+  background: $deep_blue
+  color: $white
+  text-decoration: none
