@@ -16,38 +16,38 @@
 
     <div class="row footer-content no-margin">
         <div class="col-md-3 diensten">
-            <h3><a href="#">Expertises</a></h3>
+            <h3 class="no-margin"><a href="#">Expertises</a></h3>
             <ul>
-                <li><a href="#">Ontwikkeling</a></li>
-                <li><a href="#">SMD assemblage</a></li>
-                <li><a href="#">Conventionele assemblage</a></li>
-                <li><a href="#">Elektrotechniek</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Ontwikkeling</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">SMD assemblage</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Conventionele assemblage</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Elektrotechniek</a></li>
             </ul>
         </div>
 
         <div class="col-md-3 diensten">
-            <h3><a href="#">Productie</a></h3>
+            <h3 class="no-margin"><a href="#">Productie</a></h3>
             <ul>
-                <li><a href="#">Printplaten bestukken</a></li>
-                <li><a href="#">Kabel- assemblage</a></li>
-                <li><a href="#">PCB assemblage</a></li>
-                <li><a href="#">Panelenbouw</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Printplaten bestukken</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Kabel- assemblage</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">PCB assemblage</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Panelenbouw</a></li>
             </ul>
         </div>
 
         <div class="col-md-3 diensten">
-            <h3><a href="#">Toepassingen</a></h3>
+            <h3 class="no-margin"><a href="#">Toepassingen</a></h3>
             <ul>
-                <li><a href="#">Medische industrie</a></li>
-                <li><a href="#">Automatisering</a></li>
-                <li><a href="#">Agro- industrie</a></li>
-                <li><a href="#">Entertainment industrie</a></li>
-                <li><a href="#">Branddetectie</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Medische industrie</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Automatisering</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Agro- industrie</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Entertainment industrie</a></li>
+                <li><i class="icon icon-right-open"></i><a href="#">Branddetectie</a></li>
             </ul>
         </div>
 
         <div class="col-md-3 contact">
-            <h3>Contact</h3>
+            <h3 class="no-margin">Contact</h3>
             <ul>
                 <li>Kruisboog 31</li>
                 <li>3905 TE Veenendaal</li>

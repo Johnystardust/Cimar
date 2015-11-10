@@ -14,6 +14,7 @@
             <img width="100%" src="includes/images/image.jpg" />
             <span class="overlay"></span>
             <span class="slider-text"><h3 class="no-margin">Welkom op de website van Cimar Electronics!</h3></span>
+            <span class="slider-verder"><i class="icon icon-right-open"></i></span>
         </li>
     </ul>
 

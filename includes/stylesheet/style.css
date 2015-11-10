@@ -101,6 +101,21 @@ body {
           color: #fff;
           font-size: 19px;
           font-weight: bold; }
+      #header .slides .slide .slider-verder {
+        width: 40px;
+        height: 40px;
+        z-index: 100;
+        position: absolute;
+        display: table;
+        bottom: 20%;
+        left: 63%;
+        background: #004996;
+        opacity: 0.8;
+        text-align: center; }
+        #header .slides .slide .slider-verder i {
+          display: table-cell;
+          vertical-align: middle;
+          color: #fff; }
   #header .slides-menu {
     position: relative;
     left: 3%;
@@ -146,12 +161,19 @@ body {
       width: 114px;
       height: 30px;
       margin-top: 10px;
-      display: block;
       background: #4065ab;
       color: #fff;
-      line-height: 24px; }
+      line-height: 24px;
+      display: table; }
+      #content .block .lees-verder span {
+        display: table-cell;
+        vertical-align: middle; }
       #content .block .lees-verder i {
+        margin-left: 5px;
         font-size: 9pt; }
+    #content .block .lees-verder:hover {
+      background: #004996;
+      text-decoration: none; }
 
 #footer {
   color: #fff; }
@@ -159,29 +181,26 @@ body {
     background: #bac0e2;
     height: 24px; }
   #footer .footer-content {
-    background: #4065ab; }
+    background: #4065ab;
+    padding-top: 30px;
+    padding-bottom: 10px; }
     #footer .footer-content h3 {
       font-weight: bold; }
-    #footer .footer-content .diensten {
-      padding-left: 30px;
-      padding-right: 30px; }
-      #footer .footer-content .diensten ul {
-        margin-top: 28px;
-        list-style-type: none; }
-      #footer .footer-content .diensten li {
-        height: 20px;
-        margin-bottom: 5px;
-        padding-left: 16px;
-        font-size: 10pt; }
-      #footer .footer-content .diensten a {
-        color: #fff; }
+    #footer .footer-content .diensten ul {
+      margin-top: 28px;
+      list-style-type: none; }
+    #footer .footer-content .diensten li {
+      height: 20px;
+      margin-bottom: 5px;
+      font-size: 10pt; }
+    #footer .footer-content .diensten a {
+      color: #fff; }
     #footer .footer-content .contact ul {
       margin-top: 28px;
       list-style-type: none; }
     #footer .footer-content .contact li {
       height: 20px;
       margin-bottom: 5px;
-      padding-left: 16px;
       font-size: 10pt; }
     #footer .footer-content .contact a {
       color: #fff; }
