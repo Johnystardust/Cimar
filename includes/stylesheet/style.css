@@ -94,7 +94,8 @@ body {
         position: absolute;
         left: 20%;
         bottom: 20%;
-        background: rgba(0, 73, 150, 0.8);
+        background: #004996;
+        opacity: 0.8;
         padding: 20px; }
         #header .slides .slide .slider-text h3 {
           color: #fff;
@@ -127,7 +128,7 @@ body {
     margin-top: 24px;
     background: #fff; }
     #content .block h3 {
-      color: #064a90;
+      color: #004996;
       margin-top: 0;
       margin-bottom: 10px;
       font-size: 16pt; }
@@ -143,20 +144,22 @@ body {
       padding-bottom: 15px; }
     #content .block .lees-verder {
       width: 114px;
-      height: 22px;
+      height: 30px;
       margin-top: 10px;
       display: block;
-      background: #064a90;
+      background: #4065ab;
       color: #fff;
       line-height: 24px; }
+      #content .block .lees-verder i {
+        font-size: 9pt; }
 
 #footer {
   color: #fff; }
   #footer .breadcrumbs {
-    background: #bac0e1;
+    background: #bac0e2;
     height: 24px; }
   #footer .footer-content {
-    background: #326caa; }
+    background: #4065ab; }
     #footer .footer-content h3 {
       font-weight: bold; }
     #footer .footer-content .diensten {

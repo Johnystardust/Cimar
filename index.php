@@ -24,6 +24,9 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="includes/stylesheet/style.css"/>
 
+    <!-- Fontello -->
+    <link rel="stylesheet" href="includes/fontello/fontello-embedded.css"/>
+
 </head>
 <body>
 
