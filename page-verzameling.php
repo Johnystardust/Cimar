@@ -3,6 +3,15 @@
  * Created by PhpStorm.
  * User: Tim
  * Date: 11/10/2015
+ * Time: 1:08 PM
+ */
+?>
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Tim
+ * Date: 11/10/2015
  * Time: 10:18 AM
  */
 ?>
@@ -37,14 +46,14 @@
 
         <div class="row no-margin">
             <div id="page-title" class="col-md-12">
-                <h3>Over Cimar</h3>
+                <h3>Nieuwsoverzicht</h3>
                 <hr/>
                 <hr/>
             </div>
         </div>
 
         <div class="row no-margin">
-            <?php include_once('includes/partials/page-content.php'); ?>
+            <?php include_once('includes/partials/page-verzameling-content.php'); ?>
 
             <?php include_once('sidebar.php'); ?>
 

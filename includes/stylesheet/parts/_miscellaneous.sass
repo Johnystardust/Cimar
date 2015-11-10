@@ -13,14 +13,20 @@ body
   display: block
   float: none
 
+.lines
+  margin-top: 2px
+  margin-bottom: 3px
+  border-color: #e0e0e0
+.lines:last-child
+  margin-bottom: 30px
+
+
 // Reset
 *
   margin: 0
   padding: 0
 
 // Variables
-
-// colors
 $white:             #fff
 $deep_blue:         #004996
 $blue:              #4065ab
@@ -39,9 +45,9 @@ $silver_blue:       #d0d5eb
   line-height: 24px
   display: table
   span
-    display: table-cell
-    vertical-align: middle
-    font-size: 11pt
+    display: table-cell !important
+    vertical-align: middle !important
+    font-size: 11pt !important
   i
     margin-left: 5px
     font-size: 9pt

@@ -13,6 +13,14 @@ body {
   display: block;
   float: none; }
 
+.lines {
+  margin-top: 2px;
+  margin-bottom: 3px;
+  border-color: #e0e0e0; }
+
+.lines:last-child {
+  margin-bottom: 30px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -26,9 +34,9 @@ body {
   line-height: 24px;
   display: table; }
   .btn-cimar span {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 11pt; }
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size: 11pt !important; }
   .btn-cimar i {
     margin-left: 5px;
     font-size: 9pt; }
@@ -238,6 +246,44 @@ body {
   #page-content p {
     line-height: 20px; }
 
+.sticky-block {
+  height: 294px !important; }
+  .sticky-block .sticky-image {
+    padding-left: 0; }
+  .sticky-block .sticky-text h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #4065ab; }
+  .sticky-block .sticky-text span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 9pt; }
+
+.news-block:first-child {
+  margin-top: 0; }
+
+.news-block {
+  height: 182px;
+  background: #fff;
+  margin: 30px 0; }
+  .news-block .news-block-image {
+    padding-left: 0;
+    height: 100%;
+    display: table; }
+    .news-block .news-block-image span {
+      display: table-cell;
+      vertical-align: middle; }
+  .news-block .news-block-text h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #4065ab; }
+  .news-block .news-block-text span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 9pt; }
+
+#sidebar .sidebar-block {
+  margin-bottom: 30px; }
 #sidebar .sidebar-block-head {
   width: 100%;
   height: 38px;
