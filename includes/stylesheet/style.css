@@ -4,4 +4,189 @@
 .no-margin {
   margin: 0 !important; }
 
+body {
+  overflow-x: hidden; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+#menu {
+  width: 207px;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  float: left;
+  border-right: 4px solid #a7bcc9;
+  position: fixed;
+  background: #fff; }
+  #menu .menu-logo img {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 52px;
+    width: 86%; }
+  #menu .hoofdmenu {
+    list-style-type: none;
+    width: 100%; }
+    #menu .hoofdmenu a {
+      color: #004996; }
+      #menu .hoofdmenu a li {
+        height: 31px;
+        margin-top: -1px;
+        line-height: 12px;
+        padding-top: 10px;
+        padding-left: 46px;
+        text-transform: uppercase;
+        border-top: 1px solid #edeef7;
+        border-bottom: 1px solid #edeef7;
+        font-size: 8pt; }
+      #menu .hoofdmenu a li:hover {
+        background: #f6f7fb; }
+    #menu .hoofdmenu a:hover {
+      text-decoration: none; }
+  #menu .flags-list {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 42px;
+    float: left; }
+    #menu .flags-list .flag-list {
+      float: left; }
+    #menu .flags-list .flag {
+      display: block;
+      height: 11px;
+      width: 17px;
+      margin-left: 4px;
+      background: url("../images/language_vlaggen.png"); }
+    #menu .flags-list #nl {
+      background-position: -136px -120px !important; }
+    #menu .flags-list #en {
+      background-position: -22px -386px !important; }
+    #menu .flags-list #en:hover {
+      background-position: -22px -186px !important; }
+  #menu .copyright {
+    float: left;
+    display: block;
+    font-size: 8pt;
+    margin-left: 46px;
+    color: #2c2c2c; }
+    #menu .copyright a {
+      color: #2c2c2c; }
+
+#header {
+  height: 663px;
+  min-height: 663px; }
+  #header .slides {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+    list-style-type: none; }
+    #header .slides .slide {
+      position: absolute; }
+      #header .slides .slide .overlay {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        background: url("../images/raster-cimar.png"); }
+      #header .slides .slide .slider-text {
+        z-index: 100;
+        position: absolute;
+        left: 20%;
+        bottom: 20%;
+        background: rgba(0, 73, 150, 0.8);
+        padding: 20px; }
+        #header .slides .slide .slider-text h3 {
+          color: #fff;
+          font-size: 19px;
+          font-weight: bold; }
+  #header .slides-menu {
+    position: relative;
+    left: 3%;
+    top: 92%; }
+    #header .slides-menu li {
+      width: 12px;
+      height: 12px;
+      float: left;
+      display: block;
+      background: #fff;
+      margin: 4px;
+      box-shadow: 1px 2px 2px #999; }
+
+#right {
+  margin-left: 207px;
+  display: block;
+  float: none; }
+
+#content {
+  background: url("../images/bg.jpg");
+  padding-bottom: 24px;
+  float: left; }
+  #content .block {
+    padding: 10px;
+    margin-top: 24px;
+    background: #fff; }
+    #content .block h3 {
+      color: #064a90;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 16pt; }
+    #content .block .block-title {
+      display: block;
+      font-size: 9pt;
+      font-weight: bold;
+      padding-bottom: 15px; }
+    #content .block .block-intro {
+      display: block;
+      font-size: 9pt;
+      border-bottom: 1px solid #4d4d4d;
+      padding-bottom: 15px; }
+    #content .block .lees-verder {
+      width: 114px;
+      height: 22px;
+      margin-top: 10px;
+      display: block;
+      background: #064a90;
+      color: #fff;
+      line-height: 24px; }
+
+#footer {
+  color: #fff; }
+  #footer .breadcrumbs {
+    background: #bac0e1;
+    height: 24px; }
+  #footer .footer-content {
+    background: #326caa; }
+    #footer .footer-content h3 {
+      font-weight: bold; }
+    #footer .footer-content .diensten {
+      padding-left: 30px;
+      padding-right: 30px; }
+      #footer .footer-content .diensten ul {
+        margin-top: 28px;
+        list-style-type: none; }
+      #footer .footer-content .diensten li {
+        height: 20px;
+        margin-bottom: 5px;
+        padding-left: 16px;
+        font-size: 10pt; }
+      #footer .footer-content .diensten a {
+        color: #fff; }
+    #footer .footer-content .contact ul {
+      margin-top: 28px;
+      list-style-type: none; }
+    #footer .footer-content .contact li {
+      height: 20px;
+      margin-bottom: 5px;
+      padding-left: 16px;
+      font-size: 10pt; }
+    #footer .footer-content .contact a {
+      color: #fff; }
+  #footer .partners {
+    padding-bottom: 10px; }
+    #footer .partners li {
+      float: left;
+      margin-top: 10px;
+      margin-right: 10px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -18,26 +18,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Scripts -->
-    <script src="includes/js/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="includes/stylesheet/style.css"/>
 
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid no-padding">
 
-        <div id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Expertises</a></li>
-                <li><a href="#">Toepassingen</a></li>
-                <li><a href="#">Nieuws</a></li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">Referenties</a></li>
-                <li><a href="#">Werken bij</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <?php include_once('includes/partials/menu.php'); ?>
+
+        <div id="right">
+
+            <?php include_once('includes/partials/header.php'); ?>
+
+            <?php include_once('includes/partials/content.php'); ?>
+
+            <?php include_once('includes/partials/footer.php'); ?>
+
         </div>
 
     </div>
@@ -45,6 +46,5 @@
 
 
 
-<!--    --><?php //include_once('menu.php'); ?>
 </body>
 </html>

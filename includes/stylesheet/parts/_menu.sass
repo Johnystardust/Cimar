@@ -1,5 +1,66 @@
 #menu
-  ul
-    li
-      a
+  width: 207px
+  height: 100%
+  min-height: 100%
+  display: block
+  float: left
+  border-right: 4px solid #a7bcc9
+  position: fixed
+  background: $white
+
+  .menu-logo
+    img
+      margin-top: 30px
+      margin-left: 15px
+      margin-bottom: 52px
+      width: 86%
+
+  .hoofdmenu
+    list-style-type: none
+    width: 100%
+    a
+      color: #004996
+      li
+        height: 31px
+        margin-top: -1px
+        line-height: 12px
+        padding-top: 10px
+        padding-left: 46px
         text-transform: uppercase
+        border-top: 1px solid #edeef7
+        border-bottom: 1px solid #edeef7
+        font-size: 8pt
+      li:hover
+        background: #f6f7fb
+    a:hover
+      text-decoration: none
+
+  .flags-list
+    list-style-type: none
+    margin-top: 30px
+    margin-left: 42px
+    float: left
+    .flag-list
+      float: left
+    .flag
+      display: block
+      height: 11px
+      width: 17px
+      margin-left: 4px
+      background: url("../images/language_vlaggen.png")
+    #nl
+      background-position: -136px -120px !important
+    #en
+      background-position: -22px -386px !important
+    #en:hover
+      background-position: -22px -186px !important
+
+
+  .copyright
+    float: left
+    display: block
+    font-size: 8pt
+    margin-left: 46px
+    color: #2c2c2c
+    a
+      color: #2c2c2c
